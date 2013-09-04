@@ -49,41 +49,70 @@
     <div class="row">
 
         <div class="span9">
-            <div class='article'>
+                
+
+        
+
+
+    <div class='article'>
         <div class="content-title">
-            <h1>Test of Pelican</h1>
+            <a href="http://igormarfin.github.com/pages/posts/2013/09/how-to-deploy-the-pelican-blog/"><h1>HOW-TO deploy the Pelican Blog</h1></a>
             Wed 04 September 2013
 
 by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin.html">Igor Marfin</a>
  
 
 
+ 
         </div>
-	
-        <div><div class="section" id="example-of-the-pelican-use">
-<h2>Example of the pelican use</h2>
-<p>Hi!</p>
-<p>This is my first rst post!</p>
-<p>And this is a link to a <a class="reference external" href="http://desy.de/">page</a></p>
-</div>
-</div>
-	
-        <hr>
-    	   
-        <h2>Comments</h2>
-		<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'XXXXXXXXXX'; 
-    var disqus_title = 'Test of Pelican';
+        
+        <div><div class="section" id="all-steps">
+<h2>All steps</h2>
+<p>Just repeate all steps below:</p>
+<pre class="code bash literal-block">
+sudo apt-get install git
+git config credential.helper store
+sudo pip install pelican
+mkdir myweb; <span class="nb">cd </span>myweb;
+git clone --recursive https://github.com/getpelican/pelican-themes/ themes/
 
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<span class="c">#if need, ini repository
+</span>touch README.md
+git init
+git pull origin master
+git add README.md
+git commit -m <span class="s2">&quot;first commit&quot;</span>
+git push git&#64;github.com:igormarfin/pages master
+<span class="c">#if no, just clone
+</span>git clone https://github.com/igormarfin/pages.git
+<span class="nb">cd </span>pages/
+<span class="nb">source</span> ~/utils.sh
+cp -r /mnt/WorkingPlace/myweb/themes/ .
+create_config_rst_blog  <span class="s2">&quot;Igor Marfin&quot;</span> <span class="s2">&quot;Igor Marfin's home page&quot;</span> <span class="s2">&quot;http://igormarfin.github.com/pages&quot;</span> <span class="s2">&quot;iggy.floyd.de&#64;gmal.comNOTSPAM&quot;</span>
+mkdir -p  ./posts/<span class="sb">`</span>date +%Y<span class="sb">`</span>/<span class="sb">`</span>date +%m<span class="sb">`</span>
+add_rst_blog <span class="s2">&quot;Igor Marfin&quot;</span> <span class="s2">&quot;About me&quot;</span> <span class="s2">&quot;no-tags&quot;</span> <span class="s2">&quot;About me&quot;</span> <span class="s2">&quot;Example of the pelican use&quot;</span> &gt; posts/<span class="sb">`</span>date +%Y<span class="sb">`</span>/<span class="sb">`</span>date +%m<span class="sb">`</span>/about_me2.rst
+pelican posts/ -s ./short_local_settings.py
+firefox output/index.html
+deploy_rst_blog  <span class="s2">&quot;local_settings.py&quot;</span> <span class="s2">&quot;My first post&quot;</span> <span class="s2">&quot;igormarfin&quot;</span> <span class="s2">&quot;pages&quot;</span>
+</pre>
+<p>That's it.</p>
+</div>
+</div>
+        <hr />
     </div>
+		
+            <div class="pagination">
+<ul>
+    <li class="prev disabled"><a href="#">&larr; Previous</a></li>
+
+    <li class="active"><a href="http://igormarfin.github.com/pages/category/how-to.html">1</a></li>
+
+    <li class="next disabled"><a href="#">&rarr; Next</a></li>
+
+</ul>
+</div>    
+ 
+  
         </div>
         
         <div class="span3">
