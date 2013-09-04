@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MyURL</title><link href="http://igormarfin.github.com/pages/" rel="alternate"></link><link href="http://igormarfin.github.com/pages/feeds/all-en.atom.xml" rel="self"></link><id>http://igormarfin.github.com/pages/</id><updated>2013-09-04T22:04:47+02:00</updated><entry><title>About me</title><link href="http://igormarfin.github.com/pages/posts/2013/09/about-me/" rel="alternate"></link><updated>2013-09-04T22:04:47+02:00</updated><author><name>I. Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-04:posts/2013/09/about-me/</id><summary type="html">&lt;div class="section" id="example-of-the-pelican-use"&gt;
+&lt;h2&gt;Example of the pelican use&lt;/h2&gt;
+&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;This is my first rst post!&lt;/p&gt;
+&lt;p&gt;And this is a link to a &lt;a class="reference external" href="http://desy.de/"&gt;page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="no-tags"></category></entry></feed>
