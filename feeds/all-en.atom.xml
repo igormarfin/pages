@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Igor Marfin's home page</title><link href="http://igormarfin.github.com/pages/" rel="alternate"></link><link href="http://igormarfin.github.com/pages/feeds/all-en.atom.xml" rel="self"></link><id>http://igormarfin.github.com/pages/</id><updated>2013-09-04T23:37:47+02:00</updated><entry><title>HOW-TO deploy the Pelican Blog</title><link href="http://igormarfin.github.com/pages/posts/2013/09/how-to-deploy-the-pelican-blog/" rel="alternate"></link><updated>2013-09-04T23:37:47+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-04:posts/2013/09/how-to-deploy-the-pelican-blog/</id><summary type="html">&lt;div class="section" id="all-steps"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Igor Marfin's home page</title><link href="http://igormarfin.github.com/pages/" rel="alternate"></link><link href="http://igormarfin.github.com/pages/feeds/all-en.atom.xml" rel="self"></link><id>http://igormarfin.github.com/pages/</id><updated>2013-09-05T00:11:24+02:00</updated><entry><title>Testing comments</title><link href="http://igormarfin.github.com/pages/posts/2013/09/0011/testing-comments/" rel="alternate"></link><updated>2013-09-05T00:11:24+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-05:posts/2013/09/0011/testing-comments/</id><summary type="html">&lt;div class="section" id="test-of-comments"&gt;
+&lt;h2&gt;Test of comments&lt;/h2&gt;
+&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;This is my first rst post!&lt;/p&gt;
+&lt;p&gt;And this is a link to a &lt;a class="reference external" href="http://desy.de/"&gt;page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="no-tags"></category></entry><entry><title>HOW-TO deploy the Pelican Blog</title><link href="http://igormarfin.github.com/pages/posts/2013/09/2337/how-to-deploy-the-pelican-blog/" rel="alternate"></link><updated>2013-09-04T23:37:47+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-04:posts/2013/09/2337/how-to-deploy-the-pelican-blog/</id><summary type="html">&lt;div class="section" id="all-steps"&gt;
 &lt;h2&gt;All steps&lt;/h2&gt;
 &lt;p&gt;Just repeate all steps below:&lt;/p&gt;
 &lt;pre class="code bash literal-block"&gt;
@@ -30,7 +36,7 @@ deploy_rst_blog  &lt;span class="s2"&gt;&amp;quot;local_settings.py&amp;quot;&lt
 &lt;/pre&gt;
 &lt;p&gt;That's it.&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="how-to"></category></entry><entry><title>Test of Pelican</title><link href="http://igormarfin.github.com/pages/posts/2013/09/test-of-pelican/" rel="alternate"></link><updated>2013-09-04T23:31:41+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-04:posts/2013/09/test-of-pelican/</id><summary type="html">&lt;div class="section" id="example-of-the-pelican-use"&gt;
+</summary><category term="how-to"></category></entry><entry><title>Test of Pelican</title><link href="http://igormarfin.github.com/pages/posts/2013/09/2331/test-of-pelican/" rel="alternate"></link><updated>2013-09-04T23:31:41+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-04:posts/2013/09/2331/test-of-pelican/</id><summary type="html">&lt;div class="section" id="example-of-the-pelican-use"&gt;
 &lt;h2&gt;Example of the pelican use&lt;/h2&gt;
 &lt;p&gt;Hi!&lt;/p&gt;
 &lt;p&gt;This is my first rst post!&lt;/p&gt;

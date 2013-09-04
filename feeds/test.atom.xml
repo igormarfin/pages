@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Igor Marfin's home page</title><link href="http://igormarfin.github.com/pages/" rel="alternate"></link><link href="http://igormarfin.github.com/pages/feeds/test.atom.xml" rel="self"></link><id>http://igormarfin.github.com/pages/</id><updated>2013-09-05T00:11:24+02:00</updated><entry><title>Testing comments</title><link href="http://igormarfin.github.com/pages/posts/2013/09/0011/testing-comments/" rel="alternate"></link><updated>2013-09-05T00:11:24+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-05:posts/2013/09/0011/testing-comments/</id><summary type="html">&lt;div class="section" id="test-of-comments"&gt;
+&lt;h2&gt;Test of comments&lt;/h2&gt;
+&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;This is my first rst post!&lt;/p&gt;
+&lt;p&gt;And this is a link to a &lt;a class="reference external" href="http://desy.de/"&gt;page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="no-tags"></category></entry></feed>
