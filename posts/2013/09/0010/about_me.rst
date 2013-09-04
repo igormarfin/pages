@@ -19,16 +19,7 @@ Test of comments
 
 
 
-
-Hi!
-
-This is my first rst post!
-
-And this is a link to a page_
+The comments can be supported via disqus.com_
 
 
-.. _page: http://desy.de/
-
-
-
-
+..  _disqus.com: http://discus.com
