@@ -1,13 +1,13 @@
  
-About me
-#########
+Test of Pelican
+################
 
 
 
-:date: 2013-09-04 22:04:47
-:category: About me 
-:tags:  no-tags
-:author:	 I\. Marfin 
+:date: 2013-09-04 23:31:41
+:category: Examples 
+:tags:  test
+:author:	 Igor Marfin 
 
 
 
