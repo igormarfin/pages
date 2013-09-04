@@ -45,7 +45,10 @@ An important study that would
 allow to understand the properties of the newly discovered boson is a
 measurement of the coupling strength between the boson and third-generation SM particles:
 top,bottom quarks and tau lepton.
-A precise study of decays `$H\rightarrow \tau\tau $`
+A precise study of decays 
+`$H\rightarrow \tau\tau $`
+and 
+`$H\rightarrow b\bar{b} $`
 would play a crucial test of the Higgs mechanism in the SM or
 in the theories beyond it. 
 
