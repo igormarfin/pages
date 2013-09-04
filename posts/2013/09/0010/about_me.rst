@@ -22,4 +22,5 @@ Test of comments
 The comments can be supported via disqus.com_
 
 
-..  _disqus.com: http://discus.com
+..  _disqus.com: http://disqus.com/
+
