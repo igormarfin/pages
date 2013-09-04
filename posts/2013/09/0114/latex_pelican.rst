@@ -18,7 +18,7 @@ How to setup Mathjax properly
 
 I've taken a solution from the  Hans Frangohr's blog_
 
-.. blog_ : http://www.southampton.ac.uk/~fangohr/blog/setting-up-pelican-how-to-make-equations-work.html
+..  _blog : http://www.southampton.ac.uk/~fangohr/blog/setting-up-pelican-how-to-make-equations-work.html
 
 
 To be able to use equations in the static Pelican Blog generator, the key is to include a code snippet like
