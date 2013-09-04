@@ -18,7 +18,22 @@
     <link href="http://igormarfin.github.com/pages/theme/local.css" rel="stylesheet">
     <link href="http://igormarfin.github.com/pages/theme/pygments.css" rel="stylesheet">
 
+
+<!-- Using MathJax, with the delimiters $ -->
+<!-- Conflict with pygments for the .mo and .mi -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  "HTML-CSS": {
+  styles: {
+  ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+  },
+  tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']],processEscapes: true}
+  });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
+
 
 <body>
 
@@ -71,11 +86,7 @@ An important study that would
 allow to understand the properties of the newly discovered boson is a
 measurement of the coupling strength between the boson and third-generation SM particles:
 top,bottom quarks and tau lepton.
-A precise study of decays <span class="math">
-\(H\rightarrow \tau\tau\)</span>
- and <span class="math">
-\(H\rightarrow b\bar{b}\)</span>
-
+A precise study of decays $Hrightarrow tautau$ and $Hrightarrow bbar{b}$
 would play a crucial test of the Higgs mechanism in the SM or
 in the theories beyond it.</p>
 <p>Even after a great experimental success, the SM suffers from some
