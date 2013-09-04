@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Igor Marfin's home page</title><link>http://igormarfin.github.com/pages/</link><description></description><atom:link href="http://igormarfin.github.com/pages/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 05 Sep 2013 00:11:24 +0200</lastBuildDate><item><title>Testing comments</title><link>http://igormarfin.github.com/pages/posts/2013/09/0011/testing-comments/</link><description>&lt;div class="section" id="test-of-comments"&gt;
 &lt;h2&gt;Test of comments&lt;/h2&gt;
-&lt;p&gt;The comments can be supported via &lt;a class="reference external" href="http://disqus.com/"&gt;disqus.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The comments can be supported via &lt;a class="reference external" href="http://disqus.com/"&gt;disqus.com&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Igor Marfin</dc:creator><pubDate>Thu, 05 Sep 2013 00:11:24 +0200</pubDate><guid>tag:igormarfin.github.com/pages,2013-09-05:posts/2013/09/0011/testing-comments/</guid><category>no-tags</category></item><item><title>HOW-TO deploy the Pelican Blog</title><link>http://igormarfin.github.com/pages/posts/2013/09/2337/how-to-deploy-the-pelican-blog/</link><description>&lt;div class="section" id="all-steps"&gt;
 &lt;h2&gt;All steps&lt;/h2&gt;

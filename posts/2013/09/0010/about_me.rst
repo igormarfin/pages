@@ -16,10 +16,8 @@ Testing comments
 Test of comments
 -----------------
 
+The comments can be supported via disqus.com_\ .
 
-
-
-The comments can be supported via disqus.com_
 
 
 ..  _disqus.com: http://disqus.com/
