@@ -1,0 +1,35 @@
+
+
+#Custom
+local_settings.py
+short_local_settings.py
+output
+
+#Python
+*.py[cod]
+
+# C extensions
+*.so
+*.C
+*.cpp
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+
+
