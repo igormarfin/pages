@@ -20,10 +20,7 @@ Curriculum vitae
 
 
 
-.. raw:: latex
+.. raw::  latex
 
-   \input{cv_very_short}
- 
- 
-
+    \input{cv_very_short}
 
