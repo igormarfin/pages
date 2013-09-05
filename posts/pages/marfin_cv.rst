@@ -73,32 +73,43 @@ Professional skills
 Operating Systems 
     | Unix/Linux (user- and kernle-level programming), 
     | Windows, Android
+
 Coding 
     | Strong knowledge of C, C++, Python, Bash, TCL/Tk,  good knowledge of
     | Java, JavaScript, Perl, PHP
+
 Project Management 
     | SVN, GIT, CVS,  Autotools, Make
+
 Systems of publishing 
     | Latex, ReStructuredText
+
 Detector simulation 
     | Geant4, OSCAR, ROOT(TGeant3)
+
 Object-oriented design: the reconstruction software for experiments
     | CMSSW software,  software of event reconstruction in CMS developed myself
+
 Object-oriented design: adaptive Monte Carlo generators:
     | simulations of parton-parton, electron-parton deep inelastic, photon-photon scattering
     | software developed myself
+
 Computer Algebra Systems 
     | developing modules for MATHEMATICA, modules for SymPy
+
 Numerical and Algebraic methods
     | Veltman-Passarino Integrals, the system of differential  equations for the RenormGroup, 
     | dimensional regularization  in perturbative Quantum Field Theories
+
 Statistical analysis
     | Frequentist/Bayesian/Likelihood-based  techniques for parameter estimation, hypothesis testing
     | ROOT, RooFit, RooStats, BAT, Minuit
+
 Multivariate analysis
     | Classification/Regression analyses, probabilistic classifiers (Likelihood-based), 
     | decision trees, multi-layer perceptrons, ensemble learning algorithms, principal component analysis
     | TMVA package, software developed myself 
+
 
 
 Languages
@@ -108,6 +119,8 @@ Languages
 :Russian: Mother Tongue
 :English: Fluent
 :German: Intermediate
+
+
 
 
 -----------------
@@ -175,6 +188,8 @@ Work experience
 Teaching experience
 --------------------
 
+
+
 ================       =====================           ==========================================
  Period                Institute                               Subject                     
 ================       =====================           ==========================================
@@ -183,12 +198,14 @@ Teaching experience
 2013                   Brandenburg                     Several lectures on quantum mechanics,               
 (winter)               Technical University,           field theory       and cosmology      
                        Cottbus Germany		       	         
+
 2012                   DESY, Zeuthen Germany           Advisor in DESY Summer Student Programme              
 (summer)                                       
 2011                   DESY, Zeuthen Germany           Advisor in DESY  Summer Student Programme                
 (summer)                                        
+
 2002                   Belorussian State               Practical lessons on  quantum mechanics               
-(winter/summer)         University (BSU),                                            
+(winter/summer)        University (BSU),                                            
 	               Minsk Belarus   
 2001                   BSU, Minsk                      Practical lessons on particle and  high            
 (winter/summer)                                        energy physics  
