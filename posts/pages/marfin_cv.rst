@@ -223,12 +223,12 @@ Awards and Honors
 
 --------------------------------------------------
 Reference letters are available upon request from:
---------------------------------------------------
-|        Prof. Dr. Wolfgang Lohmann  <wolfgang.lohmann@desy.deNOSPAM>
-| DESY, Platanenalle 6,15738 Zeuthen, Germany 
-|             Dr. R. Walsh  <roberval.walsh@desy.deNOSPAM>
-| DESY, Notketsrasse 85, 22607 Hamburg Germany
-|
+-------------------------------------------------
+ * Prof. Dr. Wolfgang Lohmann  <wolfgang.lohmann@desy.deNOSPAM> 
+   DESY, Platanenalle 6,15738 Zeuthen, Germany 
+ * Dr. R. Walsh  <roberval.walsh@desy.deNOSPAM>
+   DESY, Notketsrasse 85, 22607 Hamburg Germany
+
 
 
 
