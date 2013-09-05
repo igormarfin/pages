@@ -52,7 +52,8 @@
         <div class="nav-collapse">
         <ul class="nav">
                     
-                            <li><a href="http://igormarfin.github.com/pages/pages/curriculum-vitae.html">Curriculum vitae</a></li>
+                            <li><a href="http://igormarfin.github.com/pages/pages/.html"></a></li>
+                    <li><a href="http://igormarfin.github.com/pages/pages/curriculum-vitae.html">Curriculum vitae</a></li>
                     <li><a href="http://igormarfin.github.com/pages/pages/research-statements.html">Research statements</a></li>
                         </ul>
         </div>
@@ -73,8 +74,8 @@
 
     <div class='article'>
         <div class="content-title">
-            <a href="http://igormarfin.github.com/pages/posts/2013/09/2337/how-to-deploy-the-pelican-blog/"><h1>HOW-TO deploy the Pelican Blog</h1></a>
-            Wed 04 September 2013
+            <a href="http://igormarfin.github.com/pages/posts/2013/09/1143/a-sparse-checkout-in-git/"><h1>A sparse checkout in GIT</h1></a>
+            Thu 05 September 2013
 
 by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin.html">Igor Marfin</a>
  
@@ -83,7 +84,57 @@ by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin
  
         </div>
         
-        <div><div class="section" id="all-steps">
+        <div><div class="section" id="is-there-any-way-to-clone-a-git-repository-s-sub-directory-only">
+<h2>Is there any way to clone a git repository's sub-directory only?</h2>
+<p>Let's imagine that we have in a git repo which is  the root,  two a sub-dir</p>
+<pre class="code bash literal-block">
+elemoine/blog/content/cv/
+</pre>
+<p>Is there anyway to do checkout in one place only the sud-dir like so</p>
+<pre class="code bash literal-block">
+svn co svn+ssh://admin&#64;domain.com/home/admin/repos/elemoine/blog/content/cv/ cv
+</pre>
+<p>The is called a sparse checkout, and that feature was added in git 1.7.0 (Feb. 2012).
+This idea was brought by 'Chronial' at <a class="reference external" href="http://stackoverflow.com/questions/600079/is-there-any-way-to-clone-a-git-repositorys-sub-directory-only">stackoverflow.com</a>
+The steps to do a sparse clone are as follows:</p>
+<pre class="code bash literal-block">
+git init my_cv
+<span class="nb">cd </span>my_cv
+git remote add -f origin https://github.com/elemoine/blog.git
+</pre>
+<p>This creates an empty repository with your remote. Then do:</p>
+<pre class="code bash literal-block">
+git config core.sparsecheckout <span class="nb">true</span>
+</pre>
+<p>Now you need to define which files/folders you want to actually check out. This is done by listing them in .git/info/sparse-checkout, eg:</p>
+<pre class="code bash literal-block">
+<span class="nb">echo </span>content/cv &gt;&gt; .git/info/sparse-checkout
+</pre>
+<p>Last but not least, update your empty repo with the state from the remote:</p>
+<pre class="code bash literal-block">
+git pull origin master
+</pre>
+</div>
+</div>
+        <hr />
+    </div>
+		
+    
+ 
+        
+
+ 
+
+    <div class='article'>
+        <a href="http://igormarfin.github.com/pages/posts/2013/09/2337/how-to-deploy-the-pelican-blog/"><h2>HOW-TO deploy the Pelican Blog</h2></a>
+        <div class= "well small"> Wed 04 September 2013
+
+by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin.html">Igor Marfin</a>
+ 
+
+
+ </div>
+        <div class="summary"><div class="section" id="all-steps">
 <h2>All steps</h2>
 <p>Just repeate all steps below:</p>
 <pre class="code bash literal-block">
@@ -97,27 +148,9 @@ git clone --recursive https://github.com/getpelican/pelican-themes/ themes/
 </span>touch README.md
 git init
 git pull origin master
-git add README.md
-git commit -m <span class="s2">&quot;first commit&quot;</span>
-git push git&#64;github.com:igormarfin/pages master
-<span class="c">#if no, just clone
-</span>git clone https://github.com/igormarfin/pages.git
-<span class="nb">cd </span>pages/
-<span class="nb">source</span> ~/utils.sh
-cp -r /mnt/WorkingPlace/myweb/themes/ .
-create_config_rst_blog  <span class="s2">&quot;Igor Marfin&quot;</span> <span class="s2">&quot;Igor Marfin's home page&quot;</span> <span class="s2">&quot;http://igormarfin.github.com/pages&quot;</span> <span class="s2">&quot;iggy.floyd.de&#64;gmal.comNOTSPAM&quot;</span>
-mkdir -p  ./posts/<span class="sb">`</span>date +%Y<span class="sb">`</span>/<span class="sb">`</span>date +%m<span class="sb">`</span>
-add_rst_blog <span class="s2">&quot;Igor Marfin&quot;</span> <span class="s2">&quot;About me&quot;</span> <span class="s2">&quot;no-tags&quot;</span> <span class="s2">&quot;About me&quot;</span> <span class="s2">&quot;Example of the pelican use&quot;</span> &gt; posts/<span class="sb">`</span>date +%Y<span class="sb">`</span>/<span class="sb">`</span>date +%m<span class="sb">`</span>/about_me2.rst
-pelican posts/ -s ./short_local_settings.py
-firefox output/index.html
-deploy_rst_blog  <span class="s2">&quot;local_settings.py&quot;</span> <span class="s2">&quot;My first post&quot;</span> <span class="s2">&quot;igormarfin&quot;</span> <span class="s2">&quot;pages&quot;</span>
-</pre>
-<p>That's it.</p>
-</div>
-</div>
-        <hr />
-    </div>
-		
+git add README.md ...</pre></div> <a class="btn btn-info xsmall" href="http://igormarfin.github.com/pages/posts/2013/09/2337/how-to-deploy-the-pelican-blog/">read more</a></div>
+    </div>	
+				
             <div class="pagination">
 <ul>
     <li class="prev disabled"><a href="#">&larr; Previous</a></li>

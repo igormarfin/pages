@@ -32,10 +32,10 @@ This is currently, the hottest topic in High Energy Physics (HEP), which the exp
 the Large Hadron Collider (LHC) at CERN (the European Organization for Nuclear
 Research) in Switzerland will answer.  
 Using 7 TeV and 8 TeV data,   the ATLAS and CMS collaborations have announced   
-the discovery of a new boson with mass of 125 GeV [#ref2]_   during a special seminar at CERN  on 4th of July 2012.
+the discovery of a new boson with mass of 125 GeV [#ref1]_   during a special seminar at CERN  on 4th of July 2012.
 
 
-The Compact Muon Solenoid (CMS) [#ref1]_ is one of the two general purpose
+The Compact Muon Solenoid (CMS) [#ref2]_ is one of the two general purpose
 detectors at the LHC. The CMS was  built to detect the products of the
 proton-proton collisions with high collision energies  up to tens of TeVs.
 The LHC had a tremendous success last years. Many exploration and tests 
@@ -122,8 +122,7 @@ The second half of the fellowship will correspond to a period when the LHC will 
 at 14 TeV energy with high luminosity and pile-up.
 During this period,  I propose  to contribute   to measurements of production cross sections   
 for `$b\bar{b}H$` and `$t\bar{t}H$` processes.
-This analysis will rely on  the triggers with btagging which should be studied as 
-the previous step of the fellowship. 
+This analysis will rely on  the triggers with b-tagging  studied at the previous step of the fellowship. 
 My experience of the trigger software will be hugely valuable me in this task.
 
 
@@ -172,8 +171,8 @@ the electroweak symmetry breaking in  future pp collisions at the LHC.
 
 Working  with such  team of brilliant and motivated people is a huge opportunity for me.
 A post-doctoral position in GROUP [#ref5]_  is an excellent match for my researches.
-As a post-doctoral researcher, I will endeavor  to distribute an atmosphere  of DESY CMS Higgs group 
-where  knowledge and experience are easily shared among collaborators. I will  continue  to take
+As a post-doctoral researcher, I will endeavor  to distribute an atmosphere  of  the DESY CMS Higgs group 
+where  knowledge and experience are easily shared among collaborators, and  to continue  to take
 initiative in leading projects.
 
 
