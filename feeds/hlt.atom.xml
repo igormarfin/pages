@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Igor Marfin's home page</title><link href="http://igormarfin.github.com/pages/" rel="alternate"></link><link href="http://igormarfin.github.com/pages/feeds/hlt.atom.xml" rel="self"></link><id>http://igormarfin.github.com/pages/</id><updated>2013-09-06T18:46:23+02:00</updated><entry><title>2011 HLT legacy menu</title><link href="http://igormarfin.github.com/pages/posts/2013/09/1846/2011-hlt-legacy-menu/" rel="alternate"></link><updated>2013-09-06T18:46:23+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-06:posts/2013/09/1846/2011-hlt-legacy-menu/</id><summary type="html">&lt;div class="section" id="relval53x"&gt;
-&lt;h2&gt;RelVal53x&lt;/h2&gt;
-&lt;div class="line-block"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Igor Marfin's home page</title><link href="http://igormarfin.github.com/pages/" rel="alternate"></link><link href="http://igormarfin.github.com/pages/feeds/hlt.atom.xml" rel="self"></link><id>http://igormarfin.github.com/pages/</id><updated>2013-09-06T23:32:06+02:00</updated><entry><title>2011 HLT legacy menu RelVal53X</title><link href="http://igormarfin.github.com/pages/posts/2013/09/2332/2011-hlt-legacy-menu-relval53x/" rel="alternate"></link><updated>2013-09-06T23:32:06+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-06:posts/2013/09/2332/2011-hlt-legacy-menu-relval53x/</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
@@ -19,7 +17,7 @@
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
+&lt;img alt="/home/school/rst2pdf-0.92/Desy-logo-big.gif" src="/home/school/rst2pdf-0.92/Desy-logo-big.gif" style="width: 200px; height: 200px;" /&gt;
 &lt;div class="section" id="figure-graph-cmssw-5-3-11-plot8"&gt;
 &lt;h2&gt;Figure: graph  CMSSW_5_3_11_plot8&lt;/h2&gt;
 &lt;div class="line-block"&gt;
@@ -27,8 +25,12 @@
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img alt="graph.png" src="graph.png" style="width: 400px; height: 300px;" /&gt; &lt;img alt="CMSSW_5_3_11_plot8.png" src="CMSSW_5_3_11_plot8.png" style="width: 400px; height: 300px;" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="plots53x2011HLT/graph.png" src="static/plots53x2011HLT/graph.png" style="width: 700px; height: 500px;" /&gt; &lt;img alt="plots53x2011HLT/CMSSW_5_3_11_plot8.png" src="static/plots53x2011HLT/CMSSW_5_3_11_plot8.png" style="width: 700px; height: 500px;" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="figure-cmssw-5-3-11-plot7-cmssw-5-3-11-plot6"&gt;
 &lt;h2&gt;Figure: CMSSW_5_3_11_plot7  CMSSW_5_3_11_plot6&lt;/h2&gt;
@@ -37,8 +39,12 @@
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img alt="CMSSW_5_3_11_plot7.png" src="CMSSW_5_3_11_plot7.png" style="width: 400px; height: 300px;" /&gt; &lt;img alt="CMSSW_5_3_11_plot6.png" src="CMSSW_5_3_11_plot6.png" style="width: 400px; height: 300px;" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="plots53x2011HLT/CMSSW_5_3_11_plot7.png" src="static/plots53x2011HLT/CMSSW_5_3_11_plot7.png" style="width: 700px; height: 500px;" /&gt; &lt;img alt="plots53x2011HLT/CMSSW_5_3_11_plot6.png" src="static/plots53x2011HLT/CMSSW_5_3_11_plot6.png" style="width: 700px; height: 500px;" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="figure-cmssw-5-3-11-plot5-cmssw-5-3-11-plot4"&gt;
 &lt;h2&gt;Figure: CMSSW_5_3_11_plot5  CMSSW_5_3_11_plot4&lt;/h2&gt;
@@ -47,8 +53,12 @@
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img alt="CMSSW_5_3_11_plot5.png" src="CMSSW_5_3_11_plot5.png" style="width: 400px; height: 300px;" /&gt; &lt;img alt="CMSSW_5_3_11_plot4.png" src="CMSSW_5_3_11_plot4.png" style="width: 400px; height: 300px;" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="plots53x2011HLT/CMSSW_5_3_11_plot5.png" src="static/plots53x2011HLT/CMSSW_5_3_11_plot5.png" style="width: 700px; height: 500px;" /&gt; &lt;img alt="plots53x2011HLT/CMSSW_5_3_11_plot4.png" src="static/plots53x2011HLT/CMSSW_5_3_11_plot4.png" style="width: 700px; height: 500px;" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="figure-cmssw-5-3-11-plot3-cmssw-5-3-11-plot2"&gt;
 &lt;h2&gt;Figure: CMSSW_5_3_11_plot3  CMSSW_5_3_11_plot2&lt;/h2&gt;
@@ -57,8 +67,12 @@
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img alt="CMSSW_5_3_11_plot3.png" src="CMSSW_5_3_11_plot3.png" style="width: 400px; height: 300px;" /&gt; &lt;img alt="CMSSW_5_3_11_plot2.png" src="CMSSW_5_3_11_plot2.png" style="width: 400px; height: 300px;" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="plots53x2011HLT/CMSSW_5_3_11_plot3.png" src="static/plots53x2011HLT/CMSSW_5_3_11_plot3.png" style="width: 700px; height: 500px;" /&gt; &lt;img alt="plots53x2011HLT/CMSSW_5_3_11_plot2.png" src="static/plots53x2011HLT/CMSSW_5_3_11_plot2.png" style="width: 700px; height: 500px;" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="figure-cmssw-5-3-11-plot1-53x-2011"&gt;
 &lt;h2&gt;Figure: CMSSW_5_3_11_plot1  53X_2011&lt;/h2&gt;
@@ -67,13 +81,11 @@
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img alt="CMSSW_5_3_11_plot1.png" src="CMSSW_5_3_11_plot1.png" style="width: 400px; height: 300px;" /&gt; &lt;a href="#id1"&gt;&lt;span class="problematic" id="id2"&gt;|53X_2011.png|&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="system-messages section"&gt;
-&lt;h2&gt;Docutils System Messages&lt;/h2&gt;
-&lt;div class="system-message" id="id1"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;/mnt/WorkingPlace/myblog/pages/posts/2013/09/1845/hlt_2011_53x.rst&lt;/tt&gt;, line 130); &lt;em&gt;&lt;a href="#id2"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Undefined substitution referenced: &amp;quot;53X_2011.png&amp;quot;.&lt;/div&gt;
+&lt;p&gt;&lt;img alt="plots53x2011HLT/CMSSW_5_3_11_plot1.png" src="static/plots53x2011HLT/CMSSW_5_3_11_plot1.png" style="width: 700px; height: 500px;" /&gt; &lt;img alt="plots53x2011HLT/53X_2011.png" src="static/plots53x2011HLT/53X_2011.png" style="width: 700px; height: 500px;" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </summary><category term="hlt"></category></entry></feed>
