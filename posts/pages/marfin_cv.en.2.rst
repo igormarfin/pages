@@ -32,8 +32,9 @@
 
 
 
-Igor Marfin, Physicist
+Igor Marfin, physicist
 ============================================
+
 +------------------------------------+------------------------+--------------------+
 |:Address: Germany (Zeuthen)         |:Born: 1979             |.. image ::   id.jpg|
 |:Tel: +49 (0)1758916099             |:Nationnality: Belarus  |   :scale: 50       |
@@ -49,20 +50,20 @@ Education
 .. class:: with-title
 
 
-Feb 2011 |--| present      
+**Feb 2011** |--| **present**   
     | DESY CMS Higgs group, Young Investigators Group  of Dr. A. Raspereza,
     | doctoral scholarships
-May 2008 |--| Jan 2011	   
+**May 2008** |--| **Jan 2011**	   
     | DESY-Zeuthen, group of Prof. W. Lohmann
-Apr 2005 |--| Apr 2008	   
+**Apr 2005** |--| **Apr 2008**	   
     | Work under INTAS Young Scientist Grant
-Aug 2001 |--| Mar 2005      
+**Aug 2001** |--| **Mar 2005**    
     | National Center of Particle and High Energy Physics,
     | Minsk, Belarus, group of Prof. N. Schumeiko,  post-graduate studies,                        
-Jul 1996 |--| Jun 2001      
+**Jul 1996** |--| **Jun 2001**    
     | Belarusian State University, Faculty of Physics, Minsk, Belarus,       
     | undergraduate studies.   Graduated with honors in June 2001.      
-Sep 1986 |--| Jun 1996      
+**Sep 1986** |--| **Jun 1996**
     | Minsk Gymnasium N3,   specialized in economics.  Graduated  in June 1996.      
 
 
@@ -70,42 +71,32 @@ Sep 1986 |--| Jun 1996
 Professional skills
 -----------------------------------
 
-Operating Systems 
+**Operating Systems**
     | Unix/Linux (user- and kernle-level programming), 
     | Windows, Android
-
-Coding 
+**Coding** 
     | Strong knowledge of C, C++, Python, Bash, TCL/Tk,  good knowledge of
     | Java, JavaScript, Perl, PHP
-
-Project Management 
+**Project Management**
     | SVN, GIT, CVS,  Autotools, Make
-
-Systems of publishing 
+**Systems of publishing**
     | Latex, ReStructuredText
-
-Detector simulation 
+**Detector simulation** 
     | Geant4, OSCAR, ROOT(TGeant3)
-
-Object-oriented design: the reconstruction software for experiments
+**Object-oriented design: the reconstruction software for experiments**
     | CMSSW software,  software of event reconstruction in CMS developed myself
-
-Object-oriented design: adaptive Monte Carlo generators:
+**Object-oriented design: adaptive Monte Carlo generators:**
     | simulations of parton-parton, electron-parton deep inelastic, photon-photon scattering
     | software developed myself
-
-Computer Algebra Systems 
+**Computer Algebra Systems**
     | developing modules for MATHEMATICA, modules for SymPy
-
-Numerical and Algebraic methods
+**Numerical and Algebraic methods**
     | Veltman-Passarino Integrals, the system of differential  equations for the RenormGroup, 
     | dimensional regularization  in perturbative Quantum Field Theories
-
-Statistical analysis
+**Statistical analysis**
     | Frequentist/Bayesian/Likelihood-based  techniques for parameter estimation, hypothesis testing
     | ROOT, RooFit, RooStats, BAT, Minuit
-
-Multivariate analysis
+**Multivariate analysis**
     | Classification/Regression analyses, probabilistic classifiers (Likelihood-based), 
     | decision trees, multi-layer perceptrons, ensemble learning algorithms, principal component analysis
     | TMVA package, software developed myself 
@@ -129,40 +120,40 @@ Work experience
 
 
 ==========      =====================           =======================================
- Period          Institute / Position             Activities                     
+ Period          Institute / Position             Activities
 ==========      =====================           =======================================
-2013            convener of B-tag               Responsibility for  b-tagging in 
-                Physics Object Group            the CMS  High Level Trigger          
+2013            convener of B-tag               Responsibility for  b-tagging in
+                Physics Object Group            the CMS  High Level Trigger
                 in CMS, CERN
 
-2011-2013       DESY CMS Higgs group            The model-independent analysis of  the  
-                Hamburg, Germany,               `$H+b\rightarrow 3b$`                  
-                DESY-Zeuthen,     	        channel at 7+8 TeV data   
-                CMS/FCAL group      	        recorded by CMS at LHC in 2011(2012). 
-                Zeuthen, Germany,               The statistical interpretation of   
-                PhD student of                  `$H+b\rightarrow 3b$` results in
-                the supervisors                 the MSSM.  Developing and tuning MVA 
-                Prof. W. Lohmann and            methods for the blinding policy  of                       
-                Dr. R. Walsh                    the Higgs search  
+2011-2013       DESY CMS Higgs group            The model-independent analysis of  the
+                Hamburg, Germany,               :math:`H+b\rightarrow 3b`
+                DESY-Zeuthen,                   channel at 7+8 TeV data
+                CMS/FCAL group                  recorded by CMS at LHC in 2011(2012).
+                Zeuthen, Germany,               The statistical interpretation of
+                PhD student of                  :math:`H+b\rightarrow 3b` results in
+                the supervisors                 the MSSM.  Developing and tuning MVA
+                Prof. W. Lohmann and            methods for the blinding policy  of
+                Dr. R. Walsh                    the Higgs search
 
 2008-2011       DESY-Hamburg, ZEUS              Calculation of      
-                group    	                electroweak radiative  correction  to             
-                Hamburg, Germany,	        charge current DIS         
-                DESY-Zeuthen,     	        of `$e^{\pm}$` on protons    
-                CMS group      	                in ZEUS experiment.             
-                Zeuthen, Germany,               Selection of `$t\bar{t}$` events  
+                group                           electroweak radiative  correction  to             
+                Hamburg, Germany,               charge current DIS         
+                DESY-Zeuthen,                   of :math:`e^{\pm}` on protons    
+                CMS group                       in ZEUS experiment.             
+                Zeuthen, Germany,               Selection of :math:`t\bar{t}` events  
                 Researcher                      in CMS. Study of muons from  900 GeV                      
                                                 and 2.3 TeV data in CMS.          
-	       			                Efficienciy estimation 		  
-                                                for btagging algorithms from data.			  
+                                                Efficienciy estimation            
+                                                for btagging algorithms from data.                        
 
 2005-2008       National Institute              Analysis of process like                
-                for Particle and 	        `$pp\rightarrow\gamma\gamma
-                High Energy Physics,            \rightarrow WWX1X2.$` with AQGC    
-	        Minsk, Belarus,                 at CMS. Membership in the RDMS CMS                       
-                CERN,                 		Working Group for Electroweak Physics.  
+                for Particle and                :math:`pp\rightarrow\gamma\gamma
+                High Energy Physics,            \rightarrow WWX1X2.` with AQGC    
+                Minsk, Belarus,                 at CMS. Membership in the RDMS CMS                       
+                CERN,                           Working Group for Electroweak Physics.  
                 Geneva,Switzerland,             Work under INTAS Young Scientist       
-                Researcher                      Grant, no. INTAS-YS-05-112-5429                               		                                                  
+                Researcher                      Grant, no. INTAS-YS-05-112-5429
 
 2001-2005       National Institute              The precise study of  gauge boson      
                 for Particle and High           interactions in photon-photon          
@@ -174,14 +165,12 @@ Work experience
                                                 radiative corrections to WW pair       
                                                 gauge boson production in               
                                                 gamma-gamma collisions.                
-	       			                Investigation of Anomalous Quartic     
-	       			                Gauge  boson Coupling (AQGC)           
-	       			                Membership in the TESLA		  
-	       			                Working Group			  
-	       			                for Electroweak Physics		                                                  
+                                                Investigation of Anomalous Quartic     
+                                                Gauge  boson Coupling (AQGC)           
+                                                Membership in the TESLA           
+                                                Working Group                     
+                                                for Electroweak Physics           
 ==========      =====================           =======================================
-
-
 
 
 --------------------
@@ -190,27 +179,27 @@ Teaching experience
 
 
 
+
 ================       =====================           ==========================================
  Period                Institute                               Subject                     
 ================       =====================           ==========================================
-2013                    DESY,Zeuthen Germany           Advisor in DESY Summer Student Programme              
-(summer)                                         
-2013                   Brandenburg                     Several lectures on quantum mechanics,               
-(winter)               Technical University,           field theory       and cosmology      
-                       Cottbus Germany		       	         
+2013 (summer)          DESY,Zeuthen Germany            Advisor in DESY Summer Student Programme              
 
-2012                   DESY, Zeuthen Germany           Advisor in DESY Summer Student Programme              
-(summer)                                       
-2011                   DESY, Zeuthen Germany           Advisor in DESY  Summer Student Programme                
-(summer)                                        
+2013 (winter)          Brandenburg                     Several lectures on quantum mechanics,               
+                       Technical University,           field theory       and cosmology      
+                       Cottbus Germany                           
+
+2012 (summer)          DESY, Zeuthen Germany           Advisor in DESY Summer Student Programme              
+
+2011 (summer)          DESY, Zeuthen Germany           Advisor in DESY  Summer Student Programme                
 
 2002                   Belorussian State               Practical lessons on  quantum mechanics               
-(winter/summer)        University (BSU),                                            
-	               Minsk Belarus   
-2001                   BSU, Minsk                      Practical lessons on particle and  high            
-(winter/summer)                                        energy physics  
-================       =====================           ==========================================
+                       University (BSU),                                            
+                       Minsk Belarus   
 
+2001                   BSU, Minsk                      Practical lessons on particle and  high            
+                                                       energy physics  
+================       =====================           ==========================================
 
 -------------------
 Awards and Honors
@@ -223,7 +212,7 @@ Awards and Honors
 
 --------------------------------------------------
 Reference letters are available upon request from:
--------------------------------------------------
+--------------------------------------------------
  * Prof. Dr. Wolfgang Lohmann  <wolfgang.lohmann@desy.deNOSPAM> 
    DESY, Platanenalle 6,15738 Zeuthen, Germany 
  * Dr. R. Walsh  <roberval.walsh@desy.deNOSPAM>
@@ -232,9 +221,8 @@ Reference letters are available upon request from:
 
 
 
-
-
-
-
 .. include:: syms.rst
-.. include:: links.rst
+
+
+
+
