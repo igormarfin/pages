@@ -35,7 +35,7 @@ Igor Marfin, physicist
 
 +------------------------------------+------------------------+--------------------+
 |:Address: Germany (Zeuthen)         |:Born: 1979             |.. image ::   id.jpg|
-|:Tel: +49 (0)1758916099             |:Nationality: Belarus  |   :scale: 50       |
+|:Tel: +49 (0)1758916099             |:Nationality: Belarus   |   :scale: 50       |
 |:Email: marfin@cern.ch              |                        |   :align: right    |
 +------------------------------------+------------------------+--------------------+
 
