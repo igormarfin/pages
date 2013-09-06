@@ -9,7 +9,7 @@
             :height: 500
 
 
-.. |plots53x2011HLT/CMSSW_5_3_11_plot1.png| image:: static/plots53x2011HLT/CMSSW_5_3_11_plot1.png
+.. |plots53x2011HLT/CMSSW_5_3_11_plot1.png| image:: http://igormarfin.github.io/pages/static/plots53x2011HLT/CMSSW_5_3_11_plot1.png
             :width: 700
             :height: 500
 
