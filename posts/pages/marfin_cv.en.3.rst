@@ -35,11 +35,11 @@
 Igor Marfin, physicist
 ============================================
 
-+------------------------------------+------------------------+--------------------+
-|:Address: Germany (Zeuthen)         |:Born: 1979             |.. image ::   id.jpg|
-|:Tel: +49 (0)1758916099             |:Nationnality: Belarus  |   :scale: 50       |
-|:Email: marfin@cern.ch              |                        |   :align: right    |
-+------------------------------------+------------------------+--------------------+
++------------------------------------+------------------------+---------------------------+
+|:Address: Germany (Zeuthen)         |:Born: 1979             |.. image ::   images/id.jpg|
+|:Tel: +49 (0)1758916099             |:Nationnality: Belarus  |   :scale: 50              |
+|:Email: marfin@cern.ch              |                        |   :align: right           |
++------------------------------------+------------------------+---------------------------+
 
 
 
@@ -127,11 +127,11 @@ Work experience
                 in CMS, CERN
 
 2011-2013       DESY CMS Higgs group            The model-independent analysis of  the
-                Hamburg, Germany,               :math:`H+b\rightarrow 3b`
+                Hamburg, Germany,               `$H+b\rightarrow 3b$`
                 DESY-Zeuthen,                   channel at 7+8 TeV data
                 CMS/FCAL group                  recorded by CMS at LHC in 2011(2012).
                 Zeuthen, Germany,               The statistical interpretation of
-                PhD student of                  :math:`H+b\rightarrow 3b` results in
+                PhD student of                  `$H+b\rightarrow 3b$` results in
                 the supervisors                 the MSSM.  Developing and tuning MVA
                 Prof. W. Lohmann and            methods for the blinding policy  of
                 Dr. R. Walsh                    the Higgs search
@@ -139,7 +139,7 @@ Work experience
 2008-2011       DESY-Hamburg, ZEUS              Calculation of      
                 group                           electroweak radiative  correction  to             
                 Hamburg, Germany,               charge current DIS         
-                DESY-Zeuthen,                   of :math:`e^{\pm}` on protons    
+                DESY-Zeuthen,                   of `$e^{\pm}$` on protons    
                 CMS group                       in ZEUS experiment.             
                 Zeuthen, Germany,               Selection of :math:`t\bar{t}` events  
                 Researcher                      in CMS. Study of muons from  900 GeV                      
@@ -148,8 +148,8 @@ Work experience
                                                 for btagging algorithms from data.                        
 
 2005-2008       National Institute              Analysis of process like                
-                for Particle and                :math:`pp\rightarrow\gamma\gamma
-                High Energy Physics,            \rightarrow WWX1X2.` with AQGC    
+                for Particle and                `$pp\rightarrow\gamma\gamma
+                High Energy Physics,            \rightarrow WWX1X2.$` with AQGC    
                 Minsk, Belarus,                 at CMS. Membership in the RDMS CMS                       
                 CERN,                           Working Group for Electroweak Physics.  
                 Geneva,Switzerland,             Work under INTAS Young Scientist       
