@@ -76,8 +76,8 @@
 
     <div class='article'>
         <div class="content-title">
-            <a href="http://igormarfin.github.com/pages/posts/2013/09/1143/a-sparse-checkout-in-git/"><h1>A sparse checkout in GIT</h1></a>
-            Thu 05 September 2013
+            <a href="http://igormarfin.github.com/pages/posts/2013/09/2241/install-python-pil-python-image-library/"><h1>Install python PIL ( Python image Library )</h1></a>
+            Fri 06 September 2013
 
 by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin.html">Igor Marfin</a>
  
@@ -86,7 +86,48 @@ by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin
  
         </div>
         
-        <div><div class="section" id="is-there-any-way-to-clone-a-git-repository-s-sub-directory-only">
+        <div><div class="section" id="it-helped-me-to-fix-a-problem-with-pil">
+<h2>It helped me to fix a problem with PIL</h2>
+<p>I've taken ideas from <a class="reference external" href="http://obroll.com/install-python-pil-python-image-library-on-ubuntu-11-10-oneiric/">http://obroll.com/install-python-pil-python-image-library-on-ubuntu-11-10-oneiric/</a>.
+First, uninstall current PIL:</p>
+<pre class="code bash literal-block">
+sudo pip uninstall PIL
+</pre>
+<p>Then install jpeglib, freetypes</p>
+<pre class="code bash literal-block">
+sudo apt-get install libjpeg8 libjpeg62-dev libfreetype6 libfreetype6-dev
+</pre>
+<p>We should fix path libraries needed by PIL as :</p>
+<pre class="code bash literal-block">
+sudo ln -s /usr/lib/i386-linux-gnu/libjpeg.so /usr/lib
+sudo ln -s /usr/lib/i386-linux-gnu/libfreetype.so /usr/lib
+sudo ln -s /usr/lib/i386-linux-gnu/libz.so /usr/lib
+</pre>
+<p>Now we are ready installing PIL by :</p>
+<pre class="code bash literal-block">
+sudo pip install -U PIL
+</pre>
+</div>
+</div>
+        <hr />
+    </div>
+		
+    
+ 
+        
+
+ 
+
+    <div class='article'>
+        <a href="http://igormarfin.github.com/pages/posts/2013/09/1143/a-sparse-checkout-in-git/"><h2>A sparse checkout in GIT</h2></a>
+        <div class= "well small"> Thu 05 September 2013
+
+by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin.html">Igor Marfin</a>
+ 
+
+
+ </div>
+        <div class="summary"><div class="section" id="is-there-any-way-to-clone-a-git-repository-s-sub-directory-only">
 <h2>Is there any way to clone a git repository's sub-directory only?</h2>
 <p>Let's imagine that we have in a git repo which is  the root,  two a sub-dir</p>
 <pre class="code bash literal-block">
@@ -94,33 +135,9 @@ elemoine/blog/content/cv/
 </pre>
 <p>Is there anyway to do checkout in one place only the sud-dir like so</p>
 <pre class="code bash literal-block">
-svn co svn+ssh://admin&#64;domain.com/home/admin/repos/elemoine/blog/content/cv/ cv
-</pre>
-<p>The is called a sparse checkout, and that feature was added in git 1.7.0 (Feb. 2012).
-This idea was brought by 'Chronial' at <a class="reference external" href="http://stackoverflow.com/questions/600079/is-there-any-way-to-clone-a-git-repositorys-sub-directory-only">stackoverflow.com</a>
-The steps to do a sparse clone are as follows:</p>
-<pre class="code bash literal-block">
-git init my_cv
-<span class="nb">cd </span>my_cv
-git remote add -f origin https://github.com/elemoine/blog.git
-</pre>
-<p>This creates an empty repository with your remote. Then do:</p>
-<pre class="code bash literal-block">
-git config core.sparsecheckout <span class="nb">true</span>
-</pre>
-<p>Now you need to define which files/folders you want to actually check out. This is done by listing them in .git/info/sparse-checkout, eg:</p>
-<pre class="code bash literal-block">
-<span class="nb">echo </span>content/cv &gt;&gt; .git/info/sparse-checkout
-</pre>
-<p>Last but not least, update your empty repo with the state from the remote:</p>
-<pre class="code bash literal-block">
-git pull origin master
-</pre>
-</div>
-</div>
-        <hr />
-    </div>
-		
+svn co svn ...</pre></div> <a class="btn btn-info xsmall" href="http://igormarfin.github.com/pages/posts/2013/09/1143/a-sparse-checkout-in-git/">read more</a></div>
+    </div>	
+				
     
  
         

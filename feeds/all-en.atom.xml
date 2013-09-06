@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Igor Marfin's home page</title><link href="http://igormarfin.github.com/pages/" rel="alternate"></link><link href="http://igormarfin.github.com/pages/feeds/all-en.atom.xml" rel="self"></link><id>http://igormarfin.github.com/pages/</id><updated>2013-09-05T11:43:47+02:00</updated><entry><title>A sparse checkout in GIT</title><link href="http://igormarfin.github.com/pages/posts/2013/09/1143/a-sparse-checkout-in-git/" rel="alternate"></link><updated>2013-09-05T11:43:47+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-05:posts/2013/09/1143/a-sparse-checkout-in-git/</id><summary type="html">&lt;div class="section" id="is-there-any-way-to-clone-a-git-repository-s-sub-directory-only"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Igor Marfin's home page</title><link href="http://igormarfin.github.com/pages/" rel="alternate"></link><link href="http://igormarfin.github.com/pages/feeds/all-en.atom.xml" rel="self"></link><id>http://igormarfin.github.com/pages/</id><updated>2013-09-06T22:41:19+02:00</updated><entry><title>Install python PIL ( Python image Library )</title><link href="http://igormarfin.github.com/pages/posts/2013/09/2241/install-python-pil-python-image-library/" rel="alternate"></link><updated>2013-09-06T22:41:19+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-06:posts/2013/09/2241/install-python-pil-python-image-library/</id><summary type="html">&lt;div class="section" id="it-helped-me-to-fix-a-problem-with-pil"&gt;
+&lt;h2&gt;It helped me to fix a problem with PIL&lt;/h2&gt;
+&lt;p&gt;I've taken ideas from &lt;a class="reference external" href="http://obroll.com/install-python-pil-python-image-library-on-ubuntu-11-10-oneiric/"&gt;http://obroll.com/install-python-pil-python-image-library-on-ubuntu-11-10-oneiric/&lt;/a&gt;.
+First, uninstall current PIL:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+sudo pip uninstall PIL
+&lt;/pre&gt;
+&lt;p&gt;Then install jpeglib, freetypes&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+sudo apt-get install libjpeg8 libjpeg62-dev libfreetype6 libfreetype6-dev
+&lt;/pre&gt;
+&lt;p&gt;We should fix path libraries needed by PIL as :&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+sudo ln -s /usr/lib/i386-linux-gnu/libjpeg.so /usr/lib
+sudo ln -s /usr/lib/i386-linux-gnu/libfreetype.so /usr/lib
+sudo ln -s /usr/lib/i386-linux-gnu/libz.so /usr/lib
+&lt;/pre&gt;
+&lt;p&gt;Now we are ready installing PIL by :&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+sudo pip install -U PIL
+&lt;/pre&gt;
+&lt;/div&gt;
+</summary><category term="how-to"></category></entry><entry><title>A sparse checkout in GIT</title><link href="http://igormarfin.github.com/pages/posts/2013/09/1143/a-sparse-checkout-in-git/" rel="alternate"></link><updated>2013-09-05T11:43:47+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-05:posts/2013/09/1143/a-sparse-checkout-in-git/</id><summary type="html">&lt;div class="section" id="is-there-any-way-to-clone-a-git-repository-s-sub-directory-only"&gt;
 &lt;h2&gt;Is there any way to clone a git repository's sub-directory only?&lt;/h2&gt;
 &lt;p&gt;Let's imagine that we have in a git repo which is  the root,  two a sub-dir&lt;/p&gt;
 &lt;pre class="code bash literal-block"&gt;
