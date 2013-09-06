@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Igor Marfin's home page</title><link href="http://igormarfin.github.com/pages/" rel="alternate"></link><link href="http://igormarfin.github.com/pages/feeds/how-to.atom.xml" rel="self"></link><id>http://igormarfin.github.com/pages/</id><updated>2013-09-06T22:41:19+02:00</updated><entry><title>Install python PIL ( Python image Library )</title><link href="http://igormarfin.github.com/pages/posts/2013/09/2241/install-python-pil-python-image-library/" rel="alternate"></link><updated>2013-09-06T22:41:19+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-06:posts/2013/09/2241/install-python-pil-python-image-library/</id><summary type="html">&lt;div class="section" id="it-helped-me-to-fix-a-problem-with-pil"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Igor Marfin's home page</title><link href="http://igormarfin.github.com/pages/" rel="alternate"></link><link href="http://igormarfin.github.com/pages/feeds/how-to.atom.xml" rel="self"></link><id>http://igormarfin.github.com/pages/</id><updated>2013-09-07T00:17:15+02:00</updated><entry><title>How to publish a post with plots</title><link href="http://igormarfin.github.com/pages/posts/2013/09/0017/how-to-publish-a-post-with-plots/" rel="alternate"></link><updated>2013-09-07T00:17:15+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-07:posts/2013/09/0017/how-to-publish-a-post-with-plots/</id><summary type="html">&lt;div class="section" id="an-example-of-the-posting-a-report-on-validation-btag-hlt-2011-in-relval53x"&gt;
+&lt;h2&gt;An Example of the posting a report on &amp;quot;Validation BTag HLT 2011 in RelVal53X&amp;quot;&lt;/h2&gt;
+&lt;p&gt;This is quite easy:&lt;/p&gt;
+&lt;pre class="code bash literal-block"&gt;
+&lt;span class="nv"&gt;relpath&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;yes; prepare_rst2pdf_template 2 &lt;span class="s2"&gt;&amp;quot;500:700&amp;quot;&lt;/span&gt; static/plots53x2011HLT/ png 8 &lt;span class="s2"&gt;&amp;quot;HLT BTAG 2011 MENU RelVal53x&amp;quot;&lt;/span&gt; &amp;gt; 06.09.13_marfin_2011legacyMenu.In53x.rst
+&lt;span class="nb"&gt;cd&lt;/span&gt; /mnt/WorkingPlace/myblog/pages/
+cp -r /mnt/WorkingPlace/presentation/06.09.13_TSG_meeting/static/plots53x2011HLT  posts/
+cp -r /mnt/WorkingPlace/presentation/06.09.13_TSG_meeting/06.09.13_marfin_2011legacyMenu.In53x.rst  .
+&lt;span class="c"&gt;# fix header
+&lt;/span&gt;nano -w 06.09.13_marfin_2011legacyMenu.In53x.rst
+&lt;span class="c"&gt;# fix  add to STATIC_PATHS=[&amp;quot;images&amp;quot;,&amp;quot;plots53x2011HLT&amp;quot;]
+&lt;/span&gt;nano -w local_settings.py
+nano -w short_local_settings.py
+&lt;span class="nv"&gt;_post&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;./posts/&lt;span class="sb"&gt;`&lt;/span&gt;date +%Y&lt;span class="sb"&gt;`&lt;/span&gt;/&lt;span class="sb"&gt;`&lt;/span&gt;date +%m&lt;span class="sb"&gt;`&lt;/span&gt;/&lt;span class="sb"&gt;`&lt;/span&gt;date +%H%M&lt;span class="sb"&gt;`&lt;/span&gt;
+mkdir -p  &lt;span class="nv"&gt;$_post&lt;/span&gt;
+cp 06.09.13_marfin_2011legacyMenu.In53x.rst &lt;span class="nv"&gt;$_post&lt;/span&gt;
+Changeword &lt;span class="s2"&gt;&amp;quot;image:: static&amp;quot;&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;image:: http://igormarfin.github.io/pages/static&amp;quot;&lt;/span&gt;  &lt;span class="nv"&gt;$_post&lt;/span&gt;/06.09.13_marfin_2011legacyMenu.In53x.rst &lt;span class="nv"&gt;$_post&lt;/span&gt;/06.09.13_marfin_2011legacyMenu.In53x.rst
+deploy_rst_blog  &lt;span class="s2"&gt;&amp;quot;local_settings.py&amp;quot;&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Control plots of 2011 HLT RelVal53x study&amp;quot;&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;igormarfin&amp;quot;&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;pages&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;I'll add a functionality to perform the steps above in the automatic way.&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="how-to"></category></entry><entry><title>Install python PIL ( Python image Library )</title><link href="http://igormarfin.github.com/pages/posts/2013/09/2241/install-python-pil-python-image-library/" rel="alternate"></link><updated>2013-09-06T22:41:19+02:00</updated><author><name>Igor Marfin</name></author><id>tag:igormarfin.github.com/pages,2013-09-06:posts/2013/09/2241/install-python-pil-python-image-library/</id><summary type="html">&lt;div class="section" id="it-helped-me-to-fix-a-problem-with-pil"&gt;
 &lt;h2&gt;It helped me to fix a problem with PIL&lt;/h2&gt;
 &lt;p&gt;I've taken ideas from &lt;a class="reference external" href="http://obroll.com/install-python-pil-python-image-library-on-ubuntu-11-10-oneiric/"&gt;http://obroll.com/install-python-pil-python-image-library-on-ubuntu-11-10-oneiric/&lt;/a&gt;.
 First, uninstall current PIL:&lt;/p&gt;

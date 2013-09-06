@@ -76,8 +76,8 @@
 
     <div class='article'>
         <div class="content-title">
-            <a href="http://igormarfin.github.com/pages/posts/2013/09/2332/2011-hlt-legacy-menu-relval53x/"><h1>2011 HLT legacy menu RelVal53X</h1></a>
-            Fri 06 September 2013
+            <a href="http://igormarfin.github.com/pages/posts/2013/09/0017/how-to-publish-a-post-with-plots/"><h1>How to publish a post with plots</h1></a>
+            Sat 07 September 2013
 
 by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin.html">Igor Marfin</a>
  
@@ -86,7 +86,47 @@ by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin
  
         </div>
         
-        <div><div class="line-block">
+        <div><div class="section" id="an-example-of-the-posting-a-report-on-validation-btag-hlt-2011-in-relval53x">
+<h2>An Example of the posting a report on &quot;Validation BTag HLT 2011 in RelVal53X&quot;</h2>
+<p>This is quite easy:</p>
+<pre class="code bash literal-block">
+<span class="nv">relpath</span><span class="o">=</span>yes; prepare_rst2pdf_template 2 <span class="s2">&quot;500:700&quot;</span> static/plots53x2011HLT/ png 8 <span class="s2">&quot;HLT BTAG 2011 MENU RelVal53x&quot;</span> &gt; 06.09.13_marfin_2011legacyMenu.In53x.rst
+<span class="nb">cd</span> /mnt/WorkingPlace/myblog/pages/
+cp -r /mnt/WorkingPlace/presentation/06.09.13_TSG_meeting/static/plots53x2011HLT  posts/
+cp -r /mnt/WorkingPlace/presentation/06.09.13_TSG_meeting/06.09.13_marfin_2011legacyMenu.In53x.rst  .
+<span class="c"># fix header
+</span>nano -w 06.09.13_marfin_2011legacyMenu.In53x.rst
+<span class="c"># fix  add to STATIC_PATHS=[&quot;images&quot;,&quot;plots53x2011HLT&quot;]
+</span>nano -w local_settings.py
+nano -w short_local_settings.py
+<span class="nv">_post</span><span class="o">=</span>./posts/<span class="sb">`</span>date +%Y<span class="sb">`</span>/<span class="sb">`</span>date +%m<span class="sb">`</span>/<span class="sb">`</span>date +%H%M<span class="sb">`</span>
+mkdir -p  <span class="nv">$_post</span>
+cp 06.09.13_marfin_2011legacyMenu.In53x.rst <span class="nv">$_post</span>
+Changeword <span class="s2">&quot;image:: static&quot;</span> <span class="s2">&quot;image:: http://igormarfin.github.io/pages/static&quot;</span>  <span class="nv">$_post</span>/06.09.13_marfin_2011legacyMenu.In53x.rst <span class="nv">$_post</span>/06.09.13_marfin_2011legacyMenu.In53x.rst
+deploy_rst_blog  <span class="s2">&quot;local_settings.py&quot;</span> <span class="s2">&quot;Control plots of 2011 HLT RelVal53x study&quot;</span> <span class="s2">&quot;igormarfin&quot;</span> <span class="s2">&quot;pages&quot;</span>
+</pre>
+<p>I'll add a functionality to perform the steps above in the automatic way.</p>
+</div>
+</div>
+        <hr />
+    </div>
+		
+    
+ 
+        
+
+ 
+
+    <div class='article'>
+        <a href="http://igormarfin.github.com/pages/posts/2013/09/2332/2011-hlt-legacy-menu-relval53x/"><h2>2011 HLT legacy menu RelVal53X</h2></a>
+        <div class= "well small"> Fri 06 September 2013
+
+by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin.html">Igor Marfin</a>
+ 
+
+
+ </div>
+        <div class="summary"><div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 <div class="line"><br /></div>
@@ -175,10 +215,9 @@ by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin
 </div>
 <p><img alt="plots53x2011HLT/CMSSW_5_3_11_plot1.png" src="http://igormarfin.github.io/pages/static/plots53x2011HLT/CMSSW_5_3_11_plot1.png" style="width: 700px; height: 500px;" /> <img alt="plots53x2011HLT/53X_2011.png" src="http://igormarfin.github.io/pages/static/plots53x2011HLT/53X_2011.png" style="width: 700px; height: 500px;" /></p>
 </div>
-</div>
-        <hr />
-    </div>
-		
+ <a class="btn btn-info xsmall" href="http://igormarfin.github.com/pages/posts/2013/09/2332/2011-hlt-legacy-menu-relval53x/">read more</a></div>
+    </div>	
+				
     
  
         
@@ -258,28 +297,6 @@ by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin
 <pre class="code html literal-block">
 <span class="c">&lt;!-- Using MathJax, with the delimiters $ --&gt;</span>
 <span class="c">&lt;!-- Conflict with pygments for the .mo and .mi ...</span></pre></div> <a class="btn btn-info xsmall" href="http://igormarfin.github.com/pages/posts/2013/09/0118/latex-formulas-in-pelican/">read more</a></div>
-    </div>	
-				
-    
- 
-        
-
- 
-
-    <div class='article'>
-        <a href="http://igormarfin.github.com/pages/posts/2013/09/0011/testing-comments/"><h2>Testing comments</h2></a>
-        <div class= "well small"> Thu 05 September 2013
-
-by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin.html">Igor Marfin</a>
- 
-
-
- </div>
-        <div class="summary"><div class="section" id="test-of-comments">
-<h2>Test of comments</h2>
-<p>The comments can be supported via <a class="reference external" href="http://disqus.com/">disqus.com</a>.</p>
-</div>
- <a class="btn btn-info xsmall" href="http://igormarfin.github.com/pages/posts/2013/09/0011/testing-comments/">read more</a></div>
     </div>	
 				
             <div class="pagination">
