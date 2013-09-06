@@ -33,11 +33,11 @@
 Igor Marfin, physicist
 ============================================
 
-+------------------------------------+------------------------+-------------------------+
-|:Address: Germany (Zeuthen)         |:Born: 1979             |.. image :: images/id.jpg|
-|:Tel: +49 (0)1758916099             |:Nationnality: Belarus  |   :scale: 50            |
-|:Email: marfin@cern.ch              |                        |   :align: right         |
-+------------------------------------+------------------------+-------------------------+
++------------------------------------+------------------------+--------------------+
+|:Address: Germany (Zeuthen)         |:Born: 1979             |.. image ::   id.jpg|
+|:Tel: +49 (0)1758916099             |:Nationality: Belarus  |   :scale: 50       |
+|:Email: marfin@cern.ch              |                        |   :align: right    |
++------------------------------------+------------------------+--------------------+
 
 -----------
 Research
@@ -87,7 +87,7 @@ Software projects
 
 * C++ based framework for the CMSSW software of model-independent `$H+b\rightarrow 3b$` analysis  in the CMS experiment
 
-* C++  software based on RooStats API for statistical interpetation of the results in MSSM (SUSY)
+* C++  software based on RooStats API for statistical interpretation of the results in MSSM (SUSY)
 
 * Python based framework for optimization  methods  of multivariate analysis. adopted to API TMVA.
 

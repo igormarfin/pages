@@ -35,11 +35,11 @@
 Igor Marfin, physicist
 ============================================
 
-+------------------------------------+------------------------+---------------------------+
-|:Address: Germany (Zeuthen)         |:Born: 1979             |.. image ::   images/id.jpg|
-|:Tel: +49 (0)1758916099             |:Nationnality: Belarus  |   :scale: 50              |
-|:Email: marfin@cern.ch              |                        |   :align: right           |
-+------------------------------------+------------------------+---------------------------+
++------------------------------------+------------------------+--------------------+
+|:Address: Germany (Zeuthen)         |:Born: 1979             |.. image ::   id.jpg|
+|:Tel: +49 (0)1758916099             |:Nationality: Belarus  |   :scale: 50       |
+|:Email: marfin@cern.ch              |                        |   :align: right    |
++------------------------------------+------------------------+--------------------+
 
 
 
@@ -61,7 +61,7 @@ Education
     | National Center of Particle and High Energy Physics,
     | Minsk, Belarus, group of Prof. N. Schumeiko,  post-graduate studies,                        
 **Jul 1996** |--| **Jun 2001**    
-    | Belarusian State University, Faculty of Physics, Minsk, Belarus,       
+    | Belorussian State University, Faculty of Physics, Minsk, Belarus,       
     | undergraduate studies.   Graduated with honors in June 2001.      
 **Sep 1986** |--| **Jun 1996**
     | Minsk Gymnasium N3,   specialized in economics.  Graduated  in June 1996.      
@@ -72,7 +72,7 @@ Professional skills
 -----------------------------------
 
 **Operating Systems**
-    | Unix/Linux (user- and kernle-level programming), 
+    | Unix/Linux (user- and kernel-level programming), 
     | Windows, Android
 **Coding** 
     | Strong knowledge of C, C++, Python, Bash, TCL/Tk,  good knowledge of
@@ -106,7 +106,7 @@ Professional skills
 Languages
 ---------
 
-:Belarusian: Mother Tongue
+:Belorussian: Mother Tongue
 :Russian: Mother Tongue
 :English: Fluent
 :German: Intermediate
@@ -144,7 +144,7 @@ Work experience
                 Zeuthen, Germany,               Selection of :math:`t\bar{t}` events  
                 Researcher                      in CMS. Study of muons from  900 GeV                      
                                                 and 2.3 TeV data in CMS.          
-                                                Efficienciy estimation            
+                                                Efficiency estimation            
                                                 for btagging algorithms from data.                        
 
 2005-2008       National Institute              Analysis of process like                
@@ -215,7 +215,7 @@ Reference letters are available upon request from:
 --------------------------------------------------
  * Prof. Dr. Wolfgang Lohmann  <wolfgang.lohmann@desy.deNOSPAM> 
    DESY, Platanenalle 6,15738 Zeuthen, Germany 
- * Dr. R. Walsh  <roberval.walsh@desy.deNOSPAM>
+ * Dr. Roberval Walsh  <roberval.walsh@desy.deNOSPAM>
    DESY, Notketsrasse 85, 22607 Hamburg Germany
 
 
