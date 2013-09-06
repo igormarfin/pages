@@ -4,7 +4,7 @@
     :format: latex html
 
 
-.. |plots53x2011HLT/53X_2011.png| image:: static/plots53x2011HLT/53X_2011.png
+.. |plots53x2011HLT/53X_2011.png| image:: http://igormarfin.github.io/pages/static/plots53x2011HLT/53X_2011.png
             :width: 700
             :height: 500
 
@@ -14,42 +14,42 @@
             :height: 500
 
 
-.. |plots53x2011HLT/CMSSW_5_3_11_plot2.png| image:: static/plots53x2011HLT/CMSSW_5_3_11_plot2.png
+.. |plots53x2011HLT/CMSSW_5_3_11_plot2.png| image:: http://igormarfin.github.io/pages/static/plots53x2011HLT/CMSSW_5_3_11_plot2.png
             :width: 700
             :height: 500
 
 
-.. |plots53x2011HLT/CMSSW_5_3_11_plot3.png| image:: static/plots53x2011HLT/CMSSW_5_3_11_plot3.png
+.. |plots53x2011HLT/CMSSW_5_3_11_plot3.png| image:: http://igormarfin.github.io/pages/static/plots53x2011HLT/CMSSW_5_3_11_plot3.png
             :width: 700
             :height: 500
 
 
-.. |plots53x2011HLT/CMSSW_5_3_11_plot4.png| image:: static/plots53x2011HLT/CMSSW_5_3_11_plot4.png
+.. |plots53x2011HLT/CMSSW_5_3_11_plot4.png| image:: http://igormarfin.github.io/pages/static/plots53x2011HLT/CMSSW_5_3_11_plot4.png
             :width: 700
             :height: 500
 
 
-.. |plots53x2011HLT/CMSSW_5_3_11_plot5.png| image:: static/plots53x2011HLT/CMSSW_5_3_11_plot5.png
+.. |plots53x2011HLT/CMSSW_5_3_11_plot5.png| image:: http://igormarfin.github.io/pages/static/plots53x2011HLT/CMSSW_5_3_11_plot5.png
             :width: 700
             :height: 500
 
 
-.. |plots53x2011HLT/CMSSW_5_3_11_plot6.png| image:: static/plots53x2011HLT/CMSSW_5_3_11_plot6.png
+.. |plots53x2011HLT/CMSSW_5_3_11_plot6.png| image:: http://igormarfin.github.io/pages/static/plots53x2011HLT/CMSSW_5_3_11_plot6.png
             :width: 700
             :height: 500
 
 
-.. |plots53x2011HLT/CMSSW_5_3_11_plot7.png| image:: static/plots53x2011HLT/CMSSW_5_3_11_plot7.png
+.. |plots53x2011HLT/CMSSW_5_3_11_plot7.png| image:: http://igormarfin.github.io/pages/static/plots53x2011HLT/CMSSW_5_3_11_plot7.png
             :width: 700
             :height: 500
 
 
-.. |plots53x2011HLT/CMSSW_5_3_11_plot8.png| image:: static/plots53x2011HLT/CMSSW_5_3_11_plot8.png
+.. |plots53x2011HLT/CMSSW_5_3_11_plot8.png| image:: http://igormarfin.github.io/pages/static/plots53x2011HLT/CMSSW_5_3_11_plot8.png
             :width: 700
             :height: 500
 
 
-.. |plots53x2011HLT/graph.png| image:: static/plots53x2011HLT/graph.png
+.. |plots53x2011HLT/graph.png| image:: http://igormarfin.github.io/pages/static/plots53x2011HLT/graph.png
             :width: 700
             :height: 500
 
