@@ -76,62 +76,7 @@
  
 
     <div class='article'>
-        <a href="http://igormarfin.github.com/pages/posts/2013/09/2241/install-python-pil-python-image-library/"><h2>Install python PIL ( Python image Library )</h2></a>
-        <div class= "well small"> Fri 06 September 2013
-
-by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin.html">Igor Marfin</a>
- 
-
-
- </div>
-        <div class="summary"><div class="section" id="it-helped-me-to-fix-a-problem-with-pil">
-<h2>It helped me to fix a problem with PIL</h2>
-<p>I've taken ideas from <a class="reference external" href="http://obroll.com/install-python-pil-python-image-library-on-ubuntu-11-10-oneiric/">http://obroll.com/install-python-pil-python-image-library-on-ubuntu-11-10-oneiric/</a>.
-First, uninstall current PIL:</p>
-<pre class="code bash literal-block">
-sudo pip uninstall PIL
-</pre>
-<p>Then install jpeglib, freetypes</p>
-<pre class="code bash literal-block">
-sudo apt-get install libjpeg8 libjpeg62-dev libfreetype6 libfreetype6-dev
-</pre>
-<p>We should fix path libraries needed by PIL as :</p>
-<pre class="code bash literal-block">
-sudo ln -s /usr ...</pre></div> <a class="btn btn-info xsmall" href="http://igormarfin.github.com/pages/posts/2013/09/2241/install-python-pil-python-image-library/">read more</a></div>
-    </div>	
-				
-    
- 
-        
-
- 
-
-    <div class='article'>
-        <a href="http://igormarfin.github.com/pages/posts/2013/09/0118/latex-formulas-in-pelican/"><h2>Latex formulas in Pelican?</h2></a>
-        <div class= "well small"> Thu 05 September 2013
-
-by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin.html">Igor Marfin</a>
- 
-
-
- </div>
-        <div class="summary"><div class="section" id="how-to-setup-mathjax-properly">
-<h2>How to setup Mathjax properly</h2>
-<p>I've taken a solution from the  Hans Frangohr's <a class="reference external" href="http://www.southampton.ac.uk/~fangohr/blog/setting-up-pelican-how-to-make-equations-work.html">blog</a></p>
-<p>To be able to use equations in the static Pelican Blog generator, the key is to include a code snippet like</p>
-<pre class="code html literal-block">
-<span class="c">&lt;!-- Using MathJax, with the delimiters $ --&gt;</span>
-<span class="c">&lt;!-- Conflict with pygments for the .mo and .mi ...</span></pre></div> <a class="btn btn-info xsmall" href="http://igormarfin.github.com/pages/posts/2013/09/0118/latex-formulas-in-pelican/">read more</a></div>
-    </div>	
-				
-    
- 
-        
-
- 
-
-    <div class='article'>
-        <a href="http://igormarfin.github.com/pages/posts/2013/09/2331/test-of-pelican/"><h2>Test of Pelican</h2></a>
+        <a href="http://igormarfin.github.com/pages/posts/2013/09/2337/how-to-deploy-the-pelican-blog/"><h2>HOW-TO deploy the Pelican Blog</h2></a>
         <div class= "well small"> Wed 04 September 2013
 
 by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin.html">Igor Marfin</a>
@@ -139,43 +84,29 @@ by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin
 
 
  </div>
-        <div class="summary"><div class="section" id="example-of-the-pelican-use">
-<h2>Example of the pelican use</h2>
-<p>Hi!</p>
-<p>This is my first rst post!</p>
-<p>And this is a link to a <a class="reference external" href="http://desy.de/">page</a></p>
-</div>
- <a class="btn btn-info xsmall" href="http://igormarfin.github.com/pages/posts/2013/09/2331/test-of-pelican/">read more</a></div>
-    </div>	
-				
-    
- 
-        
+        <div class="summary"><div class="section" id="all-steps">
+<h2>All steps</h2>
+<p>Just repeate all steps below:</p>
+<pre class="code bash literal-block">
+sudo apt-get install git
+git config credential.helper store
+sudo pip install pelican
+mkdir myweb; <span class="nb">cd </span>myweb;
+git clone --recursive https://github.com/getpelican/pelican-themes/ themes/
 
- 
-
-    <div class='article'>
-        <a href="http://igormarfin.github.com/pages/posts/2013/09/0011/testing-comments/"><h2>Testing comments</h2></a>
-        <div class= "well small"> Thu 05 September 2013
-
-by <a class="url fn" href="http://igormarfin.github.com/pages/author/igor-marfin.html">Igor Marfin</a>
- 
-
-
- </div>
-        <div class="summary"><div class="section" id="test-of-comments">
-<h2>Test of comments</h2>
-<p>The comments can be supported via <a class="reference external" href="http://disqus.com/">disqus.com</a>.</p>
-</div>
- <a class="btn btn-info xsmall" href="http://igormarfin.github.com/pages/posts/2013/09/0011/testing-comments/">read more</a></div>
+<span class="c">#if need, ini repository
+</span>touch README.md
+git init
+git pull origin master
+git add README.md ...</pre></div> <a class="btn btn-info xsmall" href="http://igormarfin.github.com/pages/posts/2013/09/2337/how-to-deploy-the-pelican-blog/">read more</a></div>
     </div>	
 				
             <div class="pagination">
 <ul>
-    <li class="prev"><a href="http://igormarfin.github.com/pages/author/igor-marfin.html">&larr; Previous</a></li>
+    <li class="prev"><a href="http://igormarfin.github.com/pages/category/how-to.html">&larr; Previous</a></li>
 
-    <li class=""><a href="http://igormarfin.github.com/pages/author/igor-marfin.html">1</a></li>
-    <li class="active"><a href="http://igormarfin.github.com/pages/author/igor-marfin2.html">2</a></li>
+    <li class=""><a href="http://igormarfin.github.com/pages/category/how-to.html">1</a></li>
+    <li class="active"><a href="http://igormarfin.github.com/pages/category/how-to2.html">2</a></li>
 
     <li class="next disabled"><a href="#">&rarr; Next</a></li>
 
