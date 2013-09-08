@@ -35,11 +35,11 @@
 Igor Marfin, physicist
 ============================================
 
-+------------------------------------+------------------------+--------------------+
-|:Address: Germany (Zeuthen)         |:Born: 1979             |.. image ::   id.jpg|
-|:Tel: +49 (0)1758916099             |:Nationality: Belarus   |   :scale: 50       |
-|:Email: marfin@cern.ch              |                        |   :align: right    |
-+------------------------------------+------------------------+--------------------+
++------------------------------------+------------------------+----------------------------------+
+|:Address: Germany (Zeuthen)         |:Born: 1979             |.. image ::   static/images/id.png|
+|:Tel: +49 (0)1758916099             |:Nationality: Belarus   |   :scale: 30                     |
+|:Email: marfin@cern.ch              |                        |   :align: right                  |
++------------------------------------+------------------------+----------------------------------+
 
 
 
@@ -141,7 +141,7 @@ Work experience
                 Hamburg, Germany,               charge current DIS         
                 DESY-Zeuthen,                   of `$e^{\pm}$` on protons    
                 CMS group                       in ZEUS experiment.             
-                Zeuthen, Germany,               Selection of :math:`t\bar{t}` events  
+                Zeuthen, Germany,               Selection of `$t\bar{t}$` events  
                 Researcher                      in CMS. Study of muons from  900 GeV                      
                                                 and 2.3 TeV data in CMS.          
                                                 Efficiency estimation            
@@ -213,13 +213,21 @@ Awards and Honors
 --------------------------------------------------
 Reference letters are available upon request from:
 --------------------------------------------------
- * Prof. Dr. Wolfgang Lohmann  <wolfgang.lohmann@desy.deNOSPAM> 
-   DESY, Platanenalle 6,15738 Zeuthen, Germany 
- * Dr. Roberval Walsh  <roberval.walsh@desy.deNOSPAM>
-   DESY, Notketsrasse 85, 22607 Hamburg Germany
+* Prof. Dr. Wolfgang Lohmann  <wolfgang.lohmann@desy.deNOSPAM>,DESY, Platanenalle 6,15738 Zeuthen, Germany 
+* Dr. Roberval Walsh  <roberval.walsh@desy.deNOSPAM>,  DESY, Notketsrasse 85, 22607 Hamburg Germany
 
 
+--------------------------------------------------
+Additional information 
+--------------------------------------------------
 
+* My software projects: `http://igormarfin.github.io/pages/pages/research-and-software-projects.html`_
+* My research statements: `http://igormarfin.github.io/pages/pages/research-statements.html`_
+* A list of my publications: `http://igormarfin.github.io/pages/pages/the-list-of-publications.html`_
+
+.. _`http://igormarfin.github.io/pages/pages/research-and-software-projects.html`: http://igormarfin.github.io/pages/pages/research-and-software-projects.html
+.. _`http://igormarfin.github.io/pages/pages/research-statements.html`: http://igormarfin.github.io/pages/pages/research-statements.html
+.. _`http://igormarfin.github.io/pages/pages/the-list-of-publications.html` : http://igormarfin.github.io/pages/pages/the-list-of-publications.html
 
 .. include:: syms.rst
 
