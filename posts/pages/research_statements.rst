@@ -180,7 +180,7 @@ References
 =================
 
 
-`\enlargethispage{-300pt}` 
+.. `\enlargethispage{-300pt}` 
 
 .. include:: refs.txt
 
@@ -188,7 +188,7 @@ References
 
 
 
-`\newpage`
+.. `\newpage`
 
 |
 |
@@ -217,3 +217,26 @@ How to generate the document
     pdflatex research_statements.tex 
     evince research_statements.pdf 
 
+
+
+
+How to find the references 
+-------------------------------
+
+All references were found using  the tool ``spires.py`` 
+with the queries of the ``inSPIRE`` format:
+
+
+.. code-block:: bash
+
+   ./spires.py "my:find+t+Observation+of+a+new+ \ 
+    boson+and+date%3E2011"  --library ref.bib
+
+
+``BiBTex`` was translated to ``RsT`` format with help of ``bibstuff``
+
+
+.. code-block:: bash
+
+    python bib4txt.py -i research_statements.rst \ 
+    -no refs.txt ref.bib

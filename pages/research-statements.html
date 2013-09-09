@@ -198,7 +198,7 @@ where  knowledge and experience are easily shared among collaborators, and  to c
 initiative in leading projects.</p>
 <div class="section" id="references">
 <h2>References</h2>
-<p><span class="raw-tex">\enlargethispage{-300pt}</span></p>
+<!-- `\enlargethispage{-300pt}` -->
 <table class="docutils footnote" frame="void" id="chatrchyan-2012ufa" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
@@ -249,7 +249,7 @@ coupling structure of a Higgs-like particle. ** , .</td></tr>
 four leptons. <em>Phys.Rev.</em> D48, 5259-5263.</td></tr>
 </tbody>
 </table>
-<p><span class="raw-tex">\newpage</span></p>
+<!-- `\newpage` -->
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
@@ -267,6 +267,18 @@ four leptons. <em>Phys.Rev.</em> D48, 5259-5263.</td></tr>
  --documentoptions<span class="o">=</span>12pt,a4paper &gt; research_statements.tex
 pdflatex research_statements.tex
 evince research_statements.pdf
+</pre></div>
+</div>
+<div class="section" id="how-to-find-the-references">
+<h3>How to find the references</h3>
+<p>All references were found using  the tool <tt class="docutils literal">spires.py</tt>
+with the queries of the <tt class="docutils literal">inSPIRE</tt> format:</p>
+<div class="highlight"><pre>./spires.py <span class="s2">&quot;my:find+t+Observation+of+a+new+ \</span>
+<span class="s2"> boson+and+date%3E2011&quot;</span>  --library ref.bib
+</pre></div>
+<p><tt class="docutils literal">BiBTex</tt> was translated to <tt class="docutils literal">RsT</tt> format with help of <tt class="docutils literal">bibstuff</tt></p>
+<div class="highlight"><pre>python bib4txt.py -i research_statements.rst <span class="se">\</span>
+-no refs.txt ref.bib
 </pre></div>
 </div>
 </div>
