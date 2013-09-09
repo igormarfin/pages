@@ -1,0 +1,30 @@
+.. [#Chatrchyan:2012ufa]
+   Chatrchyan, Serguei. 2012. Observation of a new boson at a mass of 
+   125 GeV with the CMS experiment at the LHC. *Phys.Lett.* B716, 30-61. 
+
+
+.. [#Bayatian:922757]
+   Bayatian,. (2006) *CMS Physics: Technical Design Report Volume 1: 
+   Detector Performance and Software*. Geneva: CERN. 
+
+.. [#Bayatyan:11111]
+   Bayatyan, G L. (2002) "CMS TriDAS project: Technical Design Report, 
+   Volume 2: The Data Acquisition and High-Level Trigger". 
+   CERN-LHCC-2000-026 ; CMS-TDR-6-2. 
+
+
+.. [#Chatrchyan:2013qga]
+   Chatrchyan, Serguei. 2013. Search for a Higgs boson decaying into a 
+   b-quark pair and produced in association with b quarks in 
+   proton-proton collisions at 7 TeV. *Phys.Lett.* B722, 207-232. 
+
+.. [#ref]  the research GROUP of University 
+
+
+.. [#LHCHiggsCrossSectionWorkingGroup:2012nn]
+   David, A. 2012. LHC HXSWG interim recommendations to explore the 
+   coupling structure of a Higgs-like particle. ** , . 
+
+.. [#Soni:1993jc]
+   Soni, A, and R M Xu. 1993. Probing CP violation via Higgs decays to 
+   four leptons. *Phys.Rev.* D48, 5259-5263. 
