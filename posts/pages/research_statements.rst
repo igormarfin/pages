@@ -32,10 +32,10 @@ This is currently, the hottest topic in High Energy Physics (HEP), which the exp
 the Large Hadron Collider (LHC) at CERN (the European Organization for Nuclear
 Research) in Switzerland will answer.  
 Using 7 TeV and 8 TeV data,   the ATLAS and CMS collaborations have announced   
-the discovery of a new boson with mass of 125 GeV [#ref1]_   during a special seminar at CERN  on 4th of July 2012.
+the discovery of a new boson with mass of 125 GeV [#Chatrchyan:2012ufa]_   during a special seminar at CERN  on 4th of July 2012.
 
 
-The Compact Muon Solenoid (CMS) [#ref2]_ is one of the two general purpose
+The Compact Muon Solenoid (CMS) [#Bayatian:922757]_ is one of the two general purpose
 detectors at the LHC. The CMS was  built to detect the products of the
 proton-proton collisions with high collision energies  up to tens of TeVs.
 The LHC had a tremendous success last years. Many exploration and tests 
@@ -64,11 +64,11 @@ extensive research experience allows me significantly contribute in these effort
 I already play an important role in studying the Higgs physics  with b jets, 
 `$$pp\rightarrow b+H\rightarrow 3b+jets,$$` which I perform within 
 my doctoral scholarships in DESY CMS Higgs group.  My activity in the Higgs searches is complement by 
-my expertise of the online procedure, the High Level Trigger [#ref3]_\ , 
+my expertise of the online procedure, the High Level Trigger [#Bayatyan:11111]_\ , 
 to filter multi-jets events recorded by the CMS detector. 
 I am one of the primary authors of the search for the neutral Higgs boson decaying 
 to pair of `$b\bar{b}$`  quarks in association with b-quark  performed at 7 TeV
-data. The analysis covers the neutral Higgs sector in minimal SUSY scenarios [#ref4]_\ .
+data [#Chatrchyan:2013qga]_\ . The analysis covers the neutral Higgs sector in minimal SUSY scenarios. 
 The CMS is only experiment at LHC which published these unique results so far.
 One of my primary contributions was a Monte Carlo study on the signal and background kinematics
 to optimize the offline pre-selection  criteria of the analysis. This yields 
@@ -102,7 +102,7 @@ environment of the next LHC runs which are planned to start at the centre-of-mas
 
 Due to my experience , I have in the `$bH\rightarrow 3b$`  search
 and in b-jet identification, I would significantly contribute  
-to the GROUP [#ref5]_ program and its efforts with the CMS experiment.
+to the GROUP [#ref]_ program and its efforts with the CMS experiment.
 
 The first task in any collider data analysis, and especially in the search for new physics, is to ensure
 that the relevant collisions are recorded in a efficient way for later analyses. 
@@ -110,7 +110,7 @@ During the first half of the fellowship, I propose to continue  my current work 
 CMS High Level Trigger. My position as trigger software validation co-coordinator 
 will allow me to use the lessons which I learned from the operation of HLT in 2012 data taking. 
 I will identify  the directions for the software upgrade of HLT during the current long shutdown. 
-The strong involvement of the  GROUP [#ref5]_  in the trigger studies
+The strong involvement of the  GROUP [#ref]_  in the trigger studies
 would make it an ideal place to develop this activity.  
 Also I plan to clarify  the strategic trigger needs of the Higgs analyses with data to be collected in the
 upcoming LHC runs.
@@ -134,14 +134,14 @@ such couplings and verify whether they correspond to the SM prediction, or if
 we have a deal with  a more complex scenario.
 The LHC Higgs Cross Section Working Group has
 recently published recommendations for the parametrization of measurements to explore the
-Higgs couplings   [#ref6]_\ . For example, 
+Higgs couplings   [#LHCHiggsCrossSectionWorkingGroup:2012nn]_\ . For example, 
 it can be achieved by observing the Higgs boson in the channels, and calculating the 
 the ratios of Higgs production cross sections of the channels.
 
 
 If  the evidence for a Higgs boson in the 
 `$$t\bar{t}H,\,\, b\bar{b}H,\,\, H\rightarrow \tau\bar{\tau},b\bar{b}$$`  would be found, 
-I intend to measure its CP quantum number [#ref7]_\ . 
+I intend to measure its CP quantum number [#Soni:1993jc]_\ . 
 So, for example, the observation of a CP-odd Higgs candidate would exclude the SM Higgs which
 is CP-even. 
 If the studying the properties of the Higgs sector would demonstrate that the current
@@ -170,55 +170,50 @@ makes me well-prepared to tackle this  very exciting investigation of
 the electroweak symmetry breaking in  future pp collisions at the LHC.
 
 Working  with such  team of brilliant and motivated people is a huge opportunity for me.
-A post-doctoral position in GROUP [#ref5]_  is an excellent match for my researches.
+A post-doctoral position in GROUP [#ref]_  is an excellent match for my researches.
 As a post-doctoral researcher, I will endeavor  to distribute an atmosphere  of  the DESY CMS Higgs group 
 where  knowledge and experience are easily shared among collaborators, and  to continue  to take
 initiative in leading projects.
 
 
+References
+=================
+
+
+`\enlargethispage{-300pt}` 
+
+.. include:: refs.txt
 
 
 
 
-.. [#ref1]   ref1
 
-
-.. [#ref2]   ref2
-
-
-.. [#ref3]   ref3
-
-
-.. [#ref4]   ref4
-
-.. [#ref5]   ref5
-
-.. [#ref6]   ref6
-
-.. [#ref7]   ref7
-
-
-
-
-.. `\newpage`
+`\newpage`
 
 |
 |
 |
 |
+
+
+
 
 Appendix
 =========
+
+
 
 How to generate the document
 -------------------------------
 
 
 
-.. code:: bash
+.. code-block:: bash
 
     rst2latex.py research_statements.rst \
-     --footnote-references=brackets > research_statements.tex
+     --footnote-references=brackets \ 
+     --stylesheet=mysettings.tex \ 
+     --documentoptions=12pt,a4paper > research_statements.tex
     pdflatex research_statements.tex 
     evince research_statements.pdf 
 
