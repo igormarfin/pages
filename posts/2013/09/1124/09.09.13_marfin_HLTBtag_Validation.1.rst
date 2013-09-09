@@ -104,30 +104,29 @@
             :height: 300
 
 
+
+HLT BTag: RelVal 44x and 53x comparison
+########################################
+
+
+
+:date: 2013-09-09 11:32:52
+:category: HLT 
+:tags:  hlt
+:author:         Igor Marfin 
+
+
+
+Introduction
+----------------------------------------------
+
+
+
+* Sample: RelValTTbar with PU
+* Tigger: HLT_DiCentralJet36_BTagIP3DLoose
+
+
  
-==========================================
-Validation of BtagHLT: 44x and 53x RelVal
-==========================================
-|
-|
-|
-
-:author:	"I. Marfin <igor.marfin@desy.de>"
- 
-|
-|
-|
-
-.. image::  /home/school/rst2pdf-0.92/Desy-logo-big.gif
-        :width: 200
-        :height: 200
-
-
-.. raw:: pdf
-
-      PageBreak
-
-
 PDF 
 ---------------
 
@@ -138,6 +137,9 @@ PDF
 
 
 .. _`09.09.13_marfin_HLTBtag_Validation.3.rst.pdf`:  http://igormarfin.github.io/pages/static/pdfs/09.09.13_marfin_HLTBtag_Validation.3.rst.pdf
+
+
+
 
 Figure: mistag_light_vs_effb_L3  mistag_light_vs_effb_L25
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
