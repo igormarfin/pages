@@ -1,0 +1,371 @@
+
+
+.. role:: raw-math(raw)
+    :format: latex html
+
+
+.. |static/plotsCOMPARISON/EffvsL23_b.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/EffvsL23_b.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/EffvsL23_c.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/EffvsL23_c.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/EffvsL25_b.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/EffvsL25_b.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/EffvsL25_c.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/EffvsL25_c.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/EffvsL25_udsg.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/EffvsL25_udsg.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/EffvsL3_udsg.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/EffvsL3_udsg.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/Eff_b_vsPt_L25.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/Eff_b_vsPt_L25.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/Eff_b_vsPt_L3.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/Eff_b_vsPt_L3.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/Eff_c_vsPt_L25.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/Eff_c_vsPt_L25.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/Eff_c_vsPt_L3.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/Eff_c_vsPt_L3.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/Eff_udsg_vsPt_L25.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/Eff_udsg_vsPt_L25.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/Eff_udsg_vsPt_L3.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/Eff_udsg_vsPt_L3.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/JetTagL25.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/JetTagL25.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/JetTagL25_Log.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/JetTagL25_Log.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/JetTagL25_ratio.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/JetTagL25_ratio.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/JetTagL3.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/JetTagL3.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/mistag_c_vs_effb_L25.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/mistag_c_vs_effb_L25.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/mistag_c_vs_effb_L3.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/mistag_c_vs_effb_L3.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/mistag_light_vs_effb_L25.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/mistag_light_vs_effb_L25.png
+            :width: 400
+            :height: 300
+
+
+.. |static/plotsCOMPARISON/mistag_light_vs_effb_L3.png| image:: http://igormarfin.github.io/pages/static/plotsCOMPARISON/mistag_light_vs_effb_L3.png
+            :width: 400
+            :height: 300
+
+
+ 
+==========================================
+Validation of BtagHLT: 44x and 53x RelVal
+==========================================
+|
+|
+|
+
+:author:	"I. Marfin <igor.marfin@desy.de>"
+ 
+|
+|
+|
+
+.. image::  /home/school/rst2pdf-0.92/Desy-logo-big.gif
+        :width: 200
+        :height: 200
+
+
+.. raw:: pdf
+
+      PageBreak
+
+
+PDF 
+---------------
+
+* PDF version of the report can be download from
+  
+  * `09.09.13_marfin_HLTBtag_Validation.3.rst.pdf`_
+
+
+
+.. _`09.09.13_marfin_HLTBtag_Validation.3.rst.pdf`:  http://igormarfin.github.io/pages/static/pdfs/09.09.13_marfin_HLTBtag_Validation.3.rst.pdf
+
+Figure: mistag_light_vs_effb_L3  mistag_light_vs_effb_L25
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|
+|
+|
+|
+|
+|
+|
+|
+ 
+|static/plotsCOMPARISON/mistag_light_vs_effb_L3.png| |static/plotsCOMPARISON/mistag_light_vs_effb_L25.png|
+
+
+
+.. raw:: pdf
+
+      PageBreak
+
+
+
+Figure: mistag_c_vs_effb_L3  mistag_c_vs_effb_L25
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|
+|
+|
+|
+|
+|
+|
+|
+ 
+|static/plotsCOMPARISON/mistag_c_vs_effb_L3.png| |static/plotsCOMPARISON/mistag_c_vs_effb_L25.png|
+
+
+
+.. raw:: pdf
+
+      PageBreak
+
+
+
+Figure: JetTagL3  JetTagL25_ratio
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|
+|
+|
+|
+|
+|
+|
+|
+ 
+|static/plotsCOMPARISON/JetTagL3.png| |static/plotsCOMPARISON/JetTagL25_ratio.png|
+
+
+
+.. raw:: pdf
+
+      PageBreak
+
+
+
+Figure: JetTagL25  JetTagL25_Log
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|
+|
+|
+|
+|
+|
+|
+|
+ 
+|static/plotsCOMPARISON/JetTagL25.png| |static/plotsCOMPARISON/JetTagL25_Log.png|
+
+
+
+.. raw:: pdf
+
+      PageBreak
+
+
+
+Figure: EffvsL3_udsg  EffvsL25_udsg
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|
+|
+|
+|
+|
+|
+|
+|
+ 
+|static/plotsCOMPARISON/EffvsL3_udsg.png| |static/plotsCOMPARISON/EffvsL25_udsg.png|
+
+* Here there are some problems with absolute normalizations of efficiencies in the ``53X`` case
+
+  * 53X:  some fraction of tagged jets w/o  MC flavor
+
+
+
+.. raw:: pdf
+
+      PageBreak
+
+
+
+Figure: EffvsL25_c  EffvsL25_b
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|
+|
+|
+|
+|
+|
+|
+|
+ 
+|static/plotsCOMPARISON/EffvsL25_c.png| |static/plotsCOMPARISON/EffvsL25_b.png|
+
+* Here there are some problems with absolute normalizations of efficiencies in the ``53X`` case
+
+  * 53X:  some fraction of tagged jets w/o  MC flavor
+
+.. raw:: pdf
+
+      PageBreak
+
+
+
+Figure: EffvsL23_c  EffvsL23_b
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|
+|
+|
+|
+|
+|
+|
+|
+ 
+|static/plotsCOMPARISON/EffvsL23_c.png| |static/plotsCOMPARISON/EffvsL23_b.png|
+
+* Here there are some problems with absolute normalizations of efficiencies in the ``53X`` case
+
+  * 53X:  some fraction of tagged jets w/o  MC flavor
+
+
+
+.. raw:: pdf
+
+      PageBreak
+
+
+
+Figure: Eff_udsg_vsPt_L3  Eff_udsg_vsPt_L25
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|
+|
+|
+|
+|
+|
+|
+|
+ 
+|static/plotsCOMPARISON/Eff_udsg_vsPt_L3.png| |static/plotsCOMPARISON/Eff_udsg_vsPt_L25.png|
+
+
+* Here there are some problems with absolute normalizations of efficiencies in the ``53X`` case
+
+  * 53X:  some fraction of tagged jets w/o  MC flavor
+
+
+.. raw:: pdf
+
+      PageBreak
+
+
+
+Figure: Eff_c_vsPt_L3  Eff_c_vsPt_L25
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|
+|
+|
+|
+|
+|
+|
+|
+ 
+|static/plotsCOMPARISON/Eff_c_vsPt_L3.png| |static/plotsCOMPARISON/Eff_c_vsPt_L25.png|
+
+
+* Here there are some problems with absolute normalizations of efficiencies in the ``53X`` case
+
+  * 53X:  some fraction of tagged jets w/o  MC flavor
+
+
+.. raw:: pdf
+
+      PageBreak
+
+
+
+Figure: Eff_b_vsPt_L3  Eff_b_vsPt_L25
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|
+|
+|
+|
+|
+|
+|
+|
+ 
+|static/plotsCOMPARISON/Eff_b_vsPt_L3.png| |static/plotsCOMPARISON/Eff_b_vsPt_L25.png|
+
+
+* Here there are some problems with absolute normalizations of efficiencies in the ``53X`` case
+
+  * 53X:  some fraction of tagged jets w/o  MC flavor
+
+
+.. footer::
+
+            I. Marfin   |   09/09/13  |  Validation of  BtagHLT:   |   Slide       ###Page###     
+
